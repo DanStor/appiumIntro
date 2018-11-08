@@ -11,7 +11,6 @@ describe "Testing Budget Watch App" do
     @driver.driver_quit
   end
 
-
   it "should open the app to the homepage" do
     expect(find_element(:id, "protect.budgetwatch:id/action_settings"))
   end
